@@ -36,7 +36,7 @@ namespace Worksphere
 
         protected void Btn_Community_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Views/Applicant/Community.aspx");
         }
 
         protected void Btn_Career_Click(object sender, EventArgs e)

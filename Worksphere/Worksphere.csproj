@@ -107,7 +107,7 @@
     <Content Include="Views\Applicant\ApplicantLogin.aspx" />
     <Content Include="Views\Applicant\ApplicantRegister.aspx" />
     <Content Include="Views\Applicant\CareerAdvice.aspx" />
-    <Content Include="Views\Applicant\Community.aspx" />
+    <Content Include="Views\Applicant\CommunityPage.aspx" />
     <Content Include="Views\Applicant\HomeApplicant.aspx" />
     <Content Include="Views\Employer\AddJob.aspx" />
     <Content Include="Views\Employer\HomeEmployer.aspx" />
@@ -120,13 +120,16 @@
   <ItemGroup>
     <Compile Include="Controller\ApplicantController.cs" />
     <Compile Include="Controller\CategoryController.cs" />
+    <Compile Include="Controller\CommunityController.cs" />
     <Compile Include="Controller\EmployerController.cs" />
     <Compile Include="Controller\WorkController.cs" />
     <Compile Include="Factory\ApplicantFactory.cs" />
+    <Compile Include="Factory\CommunityFactory.cs" />
     <Compile Include="Factory\EmployerFactory.cs" />
     <Compile Include="Factory\WorkFactory.cs" />
     <Compile Include="Handler\ApplicantHandler.cs" />
     <Compile Include="Handler\CategoryHandler.cs" />
+    <Compile Include="Handler\CommunityHandler.cs" />
     <Compile Include="Handler\EmployerHandler.cs" />
     <Compile Include="Handler\WorkHandler.cs" />
     <Compile Include="Model\Applicants.cs">
@@ -175,6 +178,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ApplicantRepository.cs" />
     <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Repository\CommunityRepository.cs" />
     <Compile Include="Repository\DatabaseSingleton.cs" />
     <Compile Include="Repository\EmployerRepository.cs" />
     <Compile Include="Repository\WorkRepository.cs" />
@@ -199,12 +203,12 @@
     <Compile Include="Views\Applicant\CareerAdvice.aspx.designer.cs">
       <DependentUpon>CareerAdvice.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Applicant\Community.aspx.cs">
-      <DependentUpon>Community.aspx</DependentUpon>
+    <Compile Include="Views\Applicant\CommunityPage.aspx.cs">
+      <DependentUpon>CommunityPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Applicant\Community.aspx.designer.cs">
-      <DependentUpon>Community.aspx</DependentUpon>
+    <Compile Include="Views\Applicant\CommunityPage.aspx.designer.cs">
+      <DependentUpon>CommunityPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Applicant\HomeApplicant.aspx.cs">
       <DependentUpon>HomeApplicant.aspx</DependentUpon>

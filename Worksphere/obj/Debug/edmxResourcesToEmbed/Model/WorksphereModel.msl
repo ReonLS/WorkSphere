@@ -64,5 +64,25 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Communities">
+      <EntityTypeMapping TypeName="WorksphereDBModel.Community">
+        <MappingFragment StoreEntitySet="Community">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="EmployerID" ColumnName="EmployerID" />
+          <ScalarProperty Name="ApplicantID" ColumnName="ApplicantID" />
+          <ScalarProperty Name="CommunityID" ColumnName="CommunityID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Replies">
+      <EntityTypeMapping TypeName="WorksphereDBModel.Reply">
+        <MappingFragment StoreEntitySet="Reply">
+          <ScalarProperty Name="Reply1" ColumnName="Reply" />
+          <ScalarProperty Name="EmployerID" ColumnName="EmployerID" />
+          <ScalarProperty Name="ApplicantID" ColumnName="ApplicantID" />
+          <ScalarProperty Name="CommunityID" ColumnName="CommunityID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>
