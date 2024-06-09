@@ -79,6 +79,8 @@
     <Content Include="App_Data\WorksphereDB_log.ldf">
       <DependentUpon>WorksphereDB.mdf</DependentUpon>
     </Content>
+    <Content Include="Assets\arrow_circle_right.png" />
+    <Content Include="Assets\user.png" />
     <Content Include="Model\WorksphereModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WorksphereModel.Context.cs</LastGenOutput>
@@ -92,6 +94,7 @@
     <Content Include="Script\HomeBeforeLoginScript.js" />
     <Content Include="Style\Applicant\ApplicantRegister.css" />
     <Content Include="Style\Applicant\CareerAdvice.css" />
+    <Content Include="Style\Applicant\CommunityStyle.css" />
     <Content Include="Style\Applicant\HomeApplicant.css" />
     <Content Include="Style\Applicant\LoginApplicant.css" />
     <Content Include="Style\Employer\AddJob.css" />
@@ -104,6 +107,7 @@
     <Content Include="Views\Applicant\ApplicantLogin.aspx" />
     <Content Include="Views\Applicant\ApplicantRegister.aspx" />
     <Content Include="Views\Applicant\CareerAdvice.aspx" />
+    <Content Include="Views\Applicant\Community.aspx" />
     <Content Include="Views\Applicant\HomeApplicant.aspx" />
     <Content Include="Views\Employer\AddJob.aspx" />
     <Content Include="Views\Employer\HomeEmployer.aspx" />
@@ -195,6 +199,13 @@
     <Compile Include="Views\Applicant\CareerAdvice.aspx.designer.cs">
       <DependentUpon>CareerAdvice.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Applicant\Community.aspx.cs">
+      <DependentUpon>Community.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Applicant\Community.aspx.designer.cs">
+      <DependentUpon>Community.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Applicant\HomeApplicant.aspx.cs">
       <DependentUpon>HomeApplicant.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -265,9 +276,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
