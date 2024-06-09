@@ -80,7 +80,23 @@
       <DependentUpon>WorksphereDB.mdf</DependentUpon>
     </Content>
     <Content Include="Assets\arrow_circle_right.png" />
+    <Content Include="Assets\calendar-icon.png" />
+    <Content Include="Assets\clock-icon.png" />
+    <Content Include="Assets\fb-logo.png" />
+    <Content Include="Assets\fr-flag.png" />
+    <Content Include="Assets\github-logo.png" />
+    <Content Include="Assets\id-flag.png" />
+    <Content Include="Assets\line-logo.png" />
+    <Content Include="Assets\linkedin-logo.png" />
+    <Content Include="Assets\location-icon.png" />
+    <Content Include="Assets\mail-icon.png" />
+    <Content Include="Assets\major-icon.png" />
+    <Content Include="Assets\person-icon.png" />
+    <Content Include="Assets\phone-icon.png" />
+    <Content Include="Assets\profile-icon.png" />
+    <Content Include="Assets\uk-flag.png" />
     <Content Include="Assets\user.png" />
+    <Content Include="Assets\x-logo.png" />
     <Content Include="Model\WorksphereModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>WorksphereModel.Context.cs</LastGenOutput>
@@ -92,12 +108,14 @@
       <LastGenOutput>WorksphereModel.cs</LastGenOutput>
     </Content>
     <Content Include="Script\HomeBeforeLoginScript.js" />
+    <Content Include="Style\Applicant\ApplicantProfile.css" />
     <Content Include="Style\Applicant\ApplicantRegister.css" />
     <Content Include="Style\Applicant\CareerAdvice.css" />
     <Content Include="Style\Applicant\CommunityStyle.css" />
     <Content Include="Style\Applicant\HomeApplicant.css" />
     <Content Include="Style\Applicant\LoginApplicant.css" />
     <Content Include="Style\Employer\AddJob.css" />
+    <Content Include="Style\Employer\EmployerProfile.css" />
     <Content Include="Style\Employer\HomeEmployer.css" />
     <Content Include="Style\Employer\LoginRecruiter.css" />
     <Content Include="Style\Employer\RegisterEmployer.css" />
@@ -105,11 +123,13 @@
     <Content Include="Style\HomeBeforeLogin.css" />
     <Content Include="Style\master.css" />
     <Content Include="Views\Applicant\ApplicantLogin.aspx" />
+    <Content Include="Views\Applicant\ApplicantProfile.aspx" />
     <Content Include="Views\Applicant\ApplicantRegister.aspx" />
     <Content Include="Views\Applicant\CareerAdvice.aspx" />
     <Content Include="Views\Applicant\CommunityPage.aspx" />
     <Content Include="Views\Applicant\HomeApplicant.aspx" />
     <Content Include="Views\Employer\AddJob.aspx" />
+    <Content Include="Views\Employer\EmployerProfile.aspx" />
     <Content Include="Views\Employer\HomeEmployer.aspx" />
     <Content Include="Views\Employer\LoginEmployer.aspx" />
     <Content Include="Views\Employer\RegisterEmployer.aspx" />
@@ -189,6 +209,13 @@
     <Compile Include="Views\Applicant\ApplicantLogin.aspx.designer.cs">
       <DependentUpon>ApplicantLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Applicant\ApplicantProfile.aspx.cs">
+      <DependentUpon>ApplicantProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Applicant\ApplicantProfile.aspx.designer.cs">
+      <DependentUpon>ApplicantProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Applicant\ApplicantRegister.aspx.cs">
       <DependentUpon>ApplicantRegister.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -223,6 +250,13 @@
     </Compile>
     <Compile Include="Views\Employer\AddJob.aspx.designer.cs">
       <DependentUpon>AddJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Employer\EmployerProfile.aspx.cs">
+      <DependentUpon>EmployerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Employer\EmployerProfile.aspx.designer.cs">
+      <DependentUpon>EmployerProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Employer\HomeEmployer.aspx.cs">
       <DependentUpon>HomeEmployer.aspx</DependentUpon>

@@ -51,7 +51,7 @@ namespace Worksphere
 
         protected void Btn_ProfileApplicant_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Views/Applicant/ApplicantProfile.aspx");
         }
 
         protected void Btn_HomeEmployer_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace Worksphere
 
         protected void Btn_ProfileEmployer_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("~/Views/Employer/EmployerProfile.aspx");
         }
     }
 }
