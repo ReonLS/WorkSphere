@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Navbar.Master" AutoEventWireup="true" CodeBehind="SearchJob.aspx.cs" Inherits="Worksphere.Views.Applicant.SearchJob" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Worksphere | Search Job</title>
+    <link href="../../Style/Applicant/SearchJob.css" rel="stylesheet" />
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
