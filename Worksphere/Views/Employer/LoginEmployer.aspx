@@ -15,7 +15,7 @@
                     <img src="/Assets/WhatsApp Image 2024-06-09 at 15.36.46_7f28876c.jpg" alt="Worksphere" class="worksphere-logo"/>
                     <asp:Button ID="Btn_Home" runat="server" Text="Home" CssClass="button-feature" OnClick="Btn_Home_Click"/>
                 </div>
-                <asp:Button ID="Btn_Login" runat="server" Text="Login" CssClass="button-feature" OnClick="Btn_Login_Click"/>
+                <asp:Button ID="Btn_Login_Header" runat="server" Text="Login" CssClass="button-feature" OnClick="Btn_Login_Header_Click"/>
             </div>
             <section class="container">
                 <div class="login-head">

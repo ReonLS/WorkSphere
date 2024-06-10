@@ -33,13 +33,13 @@ namespace Worksphere.Views.Employer
         protected global::System.Web.UI.WebControls.Button Btn_Home;
 
         /// <summary>
-        /// Btn_Login control.
+        /// Btn_Login_Header control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_Login;
+        protected global::System.Web.UI.WebControls.Button Btn_Login_Header;
 
         /// <summary>
         /// TbEmail control.

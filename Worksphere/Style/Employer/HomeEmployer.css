@@ -2,7 +2,8 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: white;
+    font-family:"Inter", sans-serif;
 }
 
 .container {
@@ -17,23 +18,42 @@
 .header {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 25px 10px;
     text-align: center;
+}
+
+.header h2, .header h6, .header input{
+    margin:10px;
+}
+
+
+.header input{
+    padding:6px 9px;
+    font-weight: 600;
+    background-color:white;
+    border:none;
+    border-radius:10px;
+}
+
+.isi {
+    display: flex;
+    flex: 1 0 30%;
 }
 
 .job-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 30%;
 }
 
 .job-item {
     flex: 1 0 30%; /* Each job item occupies 30% width */
     margin: 10px;
-    padding: 10px;
+    padding: 15px 20px;;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: aliceblue;
+    background-color: #F3F3F3;
 }
 
     .job-item:hover {
@@ -51,8 +71,20 @@
     justify-content: left;
 }
 
+h5{
+    font-weight:400;
+}
+
 .icon-container {
     display: flex;
+}
+
+.viewButton{
+    padding:5px 10px;
+    font-size:12px;
+    background-color:white;
+    border: none;;
+    border-radius:15px;
 }
 
 .image {
@@ -63,9 +95,9 @@
 }
 
 .footer {
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .footer-text {

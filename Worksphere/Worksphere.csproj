@@ -114,6 +114,7 @@
     <Content Include="Style\Applicant\CommunityStyle.css" />
     <Content Include="Style\Applicant\HomeApplicant.css" />
     <Content Include="Style\Applicant\LoginApplicant.css" />
+    <Content Include="Style\Applicant\SearchJob.css" />
     <Content Include="Style\Employer\AddJob.css" />
     <Content Include="Style\Employer\EmployerProfile.css" />
     <Content Include="Style\Employer\HomeEmployer.css" />
@@ -128,6 +129,7 @@
     <Content Include="Views\Applicant\CareerAdvice.aspx" />
     <Content Include="Views\Applicant\CommunityPage.aspx" />
     <Content Include="Views\Applicant\HomeApplicant.aspx" />
+    <Content Include="Views\Applicant\SearchJob.aspx" />
     <Content Include="Views\Employer\AddJob.aspx" />
     <Content Include="Views\Employer\EmployerProfile.aspx" />
     <Content Include="Views\Employer\HomeEmployer.aspx" />
@@ -139,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ApplicantController.cs" />
+    <Compile Include="Controller\ApplymentDetailController.cs" />
     <Compile Include="Controller\CategoryController.cs" />
     <Compile Include="Controller\CommunityController.cs" />
     <Compile Include="Controller\EmployerController.cs" />
@@ -148,6 +151,7 @@
     <Compile Include="Factory\EmployerFactory.cs" />
     <Compile Include="Factory\WorkFactory.cs" />
     <Compile Include="Handler\ApplicantHandler.cs" />
+    <Compile Include="Handler\ApplymentDetailHandler.cs" />
     <Compile Include="Handler\CategoryHandler.cs" />
     <Compile Include="Handler\CommunityHandler.cs" />
     <Compile Include="Handler\EmployerHandler.cs" />
@@ -197,6 +201,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ApplicantRepository.cs" />
+    <Compile Include="Repository\ApplymentDetailRepository.cs" />
     <Compile Include="Repository\CategoryRepository.cs" />
     <Compile Include="Repository\CommunityRepository.cs" />
     <Compile Include="Repository\DatabaseSingleton.cs" />
@@ -243,6 +248,13 @@
     </Compile>
     <Compile Include="Views\Applicant\HomeApplicant.aspx.designer.cs">
       <DependentUpon>HomeApplicant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Applicant\SearchJob.aspx.cs">
+      <DependentUpon>SearchJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Applicant\SearchJob.aspx.designer.cs">
+      <DependentUpon>SearchJob.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Employer\AddJob.aspx.cs">
       <DependentUpon>AddJob.aspx</DependentUpon>

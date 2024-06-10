@@ -31,12 +31,12 @@ namespace Worksphere
 
         protected void Btn_Search_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("/Views/Applicant/SearchJob.aspx");
         }
 
         protected void Btn_Community_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Views/Applicant/Community.aspx");
+            Response.Redirect("~/Views/Applicant/Communitypage.aspx");
         }
 
         protected void Btn_Career_Click(object sender, EventArgs e)

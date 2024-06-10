@@ -6,8 +6,35 @@
     <div class="Title">
         <h1>Applicants</h1>
     </div>
-
-    <div class="Table">
+    
+    <div class="Table">    
+        <table class="table-applyment">
+            <tr>
+                <th>Photo</th>
+                <th>Applicant Name</th>
+                <th>Age</th>
+                <th>Application Date</th>
+                <th>Status</th>
+                <th>Portofolio</th>
+                <th>Action</th>
+            </tr>
+            <% foreach(var d in listApplicant)
+            {%>
+                <tr>
+                    <td><%= d.Applicant.ProfilePicture %></td>
+                    <td><%= d.Applicant.Name %></td>
+                    <td><%= d.Applicant.Age %></td>
+                    <td><%= d.ApplyDate %></td>
+                    <td><%= d.Status %></td>
+                    <td> <button></button> </td>
+                    <td>
+                        <button>Accept</button>
+                        <button>Reject</button>
+                    </td>
+                </tr>
+            <%
+            } %>
+        </table>
         <asp:Table ID="Table" runat="server">
             <asp:TableHeaderRow>
                 <asp:TableCell>Photo</asp:TableCell>
@@ -19,6 +46,7 @@
                 <asp:TableCell>Portofolio</asp:TableCell>
                 <asp:TableCell>View Profile</asp:TableCell>
             </asp:TableHeaderRow>
+
             <asp:TableRow>
                 <asp:TableCell ID="photo"></asp:TableCell>
                 <asp:TableCell ID="name"></asp:TableCell>

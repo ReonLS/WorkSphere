@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Worksphere.Factory;
+using Worksphere.Handler;
 using Worksphere.Model;
 
 namespace Worksphere.Repository
@@ -34,6 +35,6 @@ namespace Worksphere.Repository
             return (from a in db.Applicants1 where a.ApplicantID.Equals(id) select a).FirstOrDefault();
         }
 
-
+       
     }
 }

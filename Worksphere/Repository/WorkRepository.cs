@@ -22,5 +22,10 @@ namespace Worksphere.Repository {
             db.SaveChanges();
             return;
         }
+
+        public static List<Work> getWorkByEmployerID(string empID)
+        {
+            return (from w in db.Works where w.EmployerID.Equals(empID) select w).ToList();
+        }
     }
 }
