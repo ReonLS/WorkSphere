@@ -47,5 +47,15 @@ namespace Worksphere.Views.Employer
         {
             Response.Redirect("~/Views/Employer/LoginEmployer.aspx");
         }
+
+        protected void Btn_Home_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Views/HomeBeforeLogin.aspx");
+        }
+
+        protected void Btn_Login_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Views/Applicant/ApplicantLogin.aspx");
+        }
     }
 }

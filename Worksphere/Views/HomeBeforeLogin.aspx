@@ -11,6 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
+    <form id="form1" runat="server">
+    <div class="navbar">
+        <div style="display:flex; align-items:center; gap:10px;">
+            <img src="/Assets/WhatsApp Image 2024-06-09 at 15.36.46_7f28876c.jpg" alt="Worksphere" class="worksphere-logo"/>
+            <asp:Button ID="Btn_Home" runat="server" Text="Home" CssClass="button-feature" OnClick="Btn_Home_Click"/>
+        </div>
+        <asp:Button ID="BtnLogin" runat="server" Text="Login" CssClass="button-feature" OnClick="BtnLogin_Click"/>
+    </div>
      <div class="register">
          <div class="container">
              <div class="top">
@@ -18,13 +26,13 @@
                  <p>Increase you chances and let employers find you</p>
                  <a href="">Register For Free</a>
              </div>
-             <form id="form1" runat="server">
+             
                  <div class="bottom">
                      <asp:TextBox ID="Txt_Keyword" runat="server" CssClass="txt-box" Placeholder="Keywords/Job Title"></asp:TextBox>
                      <asp:TextBox ID="Txt_Location" runat="server" CssClass="txt-box" Placeholder="Location"></asp:TextBox>
                      <asp:Button ID="Btn_Find" runat="server" Text="Find jobs" CssClass="btn-find"/>
                  </div>
-             </form>
+             
          </div>
      </div>
 
@@ -195,6 +203,7 @@
              </div>
          </div>
      </div>
+        </form>
 </body>
     <script src="~/Script/HomeBeforeLoginScript.js"></script>
 </html>

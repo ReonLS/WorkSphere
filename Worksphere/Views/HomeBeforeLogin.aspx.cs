@@ -13,5 +13,15 @@ namespace Worksphere.Views
         {
 
         }
+
+        protected void Btn_Home_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Views/HomeBeforeLogin.aspx");
+        }
+
+        protected void BtnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Views/Applicant/ApplicantLogin.aspx");
+        }
     }
 }

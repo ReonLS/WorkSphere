@@ -10,6 +10,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <div class="navbar">
+                <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="/Assets/WhatsApp Image 2024-06-09 at 15.36.46_7f28876c.jpg" alt="Worksphere" class="worksphere-logo"/>
+                    <asp:Button ID="Btn_Home" runat="server" Text="Home" CssClass="button-feature" OnClick="Btn_Home_Click"/>
+                </div>
+                <asp:Button ID="Btn_Login" runat="server" Text="Login" CssClass="button-feature" OnClick="Btn_Login_Click"/>
+            </div>
             <section class="container">
                 <div class="login-head">
                     <div class="login-text">

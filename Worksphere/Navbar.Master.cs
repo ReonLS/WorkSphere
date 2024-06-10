@@ -16,7 +16,7 @@ namespace Worksphere
         {
             if (Session["users"]==null)
             {
-                Response.Redirect("~/Views/Applicant/HomeBeforeLogin.aspx");
+                Response.Redirect("~/Views/HomeBeforeLogin.aspx");
             } else
             {
                 id = (string)Session["users"];
