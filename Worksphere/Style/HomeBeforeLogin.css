@@ -1,4 +1,6 @@
-﻿* {
+﻿@import url('homebeforelogin.css');
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Inter';
@@ -41,12 +43,12 @@
 .container {
     background-color: #f3f3f3;
     opacity: 95%;
-    height: 65vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 7rem 0;
+    gap: 10rem 0;
 }
 
 .top h1 {
@@ -113,28 +115,28 @@
     width: 80vw;
 }
 
-    .browse-container h1 {
-        font-size: 40px;
-    }
+.browse-container h1 {
+    font-size: 40px;
+}
 
 .jobs-navbar {
     display: flex;
     gap: 2rem;
 }
 
-    .jobs-navbar button {
-        padding: 8px 16px;
-        font-size: 20px;
-        border: none;
-        font-weight: bold;
-        background-color: white;
-        cursor: pointer;
-        transition: color 0.3s ease-in-out;
-    }
+.jobs-navbar button {
+    padding: 8px 16px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
 
-        .jobs-navbar button:hover {
-            color: #4CD681;
-        }
+.jobs-navbar button:hover {
+    color: #4CD681;
+}
 
 .jobs-container {
     display: flex;
