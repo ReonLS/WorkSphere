@@ -43,12 +43,18 @@
 .container {
     background-color: #f3f3f3;
     opacity: 95%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10rem 0;
+    gap: 8rem 0;
+}
+
+.top{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .top h1 {
@@ -100,7 +106,6 @@
 }
 
 /* Browse Jobs */
-
 .browse-jobs {
     display: flex;
     align-items: center;

@@ -63,14 +63,14 @@ a {
     margin-bottom: 0.5rem;
 }
 
-    .top-user .names-container .names h4 {
-        font-size: 20px;
-    }
+.tosp-user .names-container .names h4 {
+    font-size: 20px;
+}
 
-    .top-user .names-container .names p {
-        font-size: 12px;
-        color: grey;
-    }
+.top-user .names-container .names p {
+    font-size: 12px;
+    color: grey;
+}
 
 /* Trending Companies */
 
