@@ -1,4 +1,4 @@
-﻿body {
+﻿    body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -6,36 +6,59 @@
     font-family:"Inter", sans-serif;
 }
 
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .header {
-    background-color: #333;
-    color: #fff;
-    padding: 25px 10px;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    background-color: #4CD681;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 50px 50px;
 }
 
-.header h2, .header h6, .header input{
-    margin:10px;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: 5rem 0;
 }
 
+    .header-container .left {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
 
-.header input{
-    padding:6px 9px;
-    font-weight: 600;
-    background-color:white;
-    border:none;
-    border-radius:10px;
+        .header-container .left h1 {
+            font-size: 42px;
+            font-weight: bold;
+            width: 50vw;
+        }
+
+        .header-container .left p {
+            font-size: 24px;
+            width: 50vw;
+            margin-bottom: 1vh;
+        }
+
+.button-addjob {
+            font-size: 16px;
+            width: 10vh;
+            padding: 8px;
+            background-color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            text-align: center;
+            border: 1px solid;
 }
 
+h2{
+    margin-top:35px;
+}
 .isi {
+    margin-top:10px;
     display: flex;
     flex: 1 0 30%;
 }
@@ -70,6 +93,18 @@
     margin-top: 10px;
     justify-content: left;
 }
+
+    .job-description a {
+        text-decoration: none;
+        padding: 0.3rem 1rem;
+        font-size: 12px;
+        font-weight: 500;
+        width: 2vw;
+        background-color: #4CD681;
+        text-align: center;
+        color: black;
+        border-radius: 20px;
+    }
 
 h5{
     font-weight:400;

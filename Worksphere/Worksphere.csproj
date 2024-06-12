@@ -113,6 +113,7 @@
     <Content Include="Style\Applicant\CareerAdvice.css" />
     <Content Include="Style\Applicant\CommunityStyle.css" />
     <Content Include="Style\Applicant\HomeApplicant.css" />
+    <Content Include="Style\Applicant\JobDetail.css" />
     <Content Include="Style\Applicant\LoginApplicant.css" />
     <Content Include="Style\Applicant\SearchJob.css" />
     <Content Include="Style\Employer\AddJob.css" />
@@ -129,6 +130,7 @@
     <Content Include="Views\Applicant\CareerAdvice.aspx" />
     <Content Include="Views\Applicant\CommunityPage.aspx" />
     <Content Include="Views\Applicant\HomeApplicant.aspx" />
+    <Content Include="Views\Applicant\JobDetail.aspx" />
     <Content Include="Views\Applicant\SearchJob.aspx" />
     <Content Include="Views\Employer\AddJob.aspx" />
     <Content Include="Views\Employer\EmployerProfile.aspx" />
@@ -147,6 +149,7 @@
     <Compile Include="Controller\EmployerController.cs" />
     <Compile Include="Controller\WorkController.cs" />
     <Compile Include="Factory\ApplicantFactory.cs" />
+    <Compile Include="Factory\ApplymentDetailFactory.cs" />
     <Compile Include="Factory\CommunityFactory.cs" />
     <Compile Include="Factory\EmployerFactory.cs" />
     <Compile Include="Factory\WorkFactory.cs" />
@@ -248,6 +251,13 @@
     </Compile>
     <Compile Include="Views\Applicant\HomeApplicant.aspx.designer.cs">
       <DependentUpon>HomeApplicant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Applicant\JobDetail.aspx.cs">
+      <DependentUpon>JobDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Applicant\JobDetail.aspx.designer.cs">
+      <DependentUpon>JobDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Applicant\SearchJob.aspx.cs">
       <DependentUpon>SearchJob.aspx</DependentUpon>

@@ -1,70 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projek_SE\\Worksphere\\",
+  "WorkspaceRootPath": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\style\\homebeforelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:style\\homebeforelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\views\\applicant\\jobdetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\jobdetail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\homebeforelogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\homebeforelogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\views\\employer\\viewapplicant.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\employer\\viewapplicant.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\projek_se\\worksphere\\views\\applicant\\homeapplicant.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\homeapplicant.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\style\\employer\\viewapplicant.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:style\\employer\\viewapplicant.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\projek_se\\worksphere\\style\\applicant\\communitystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:style\\applicant\\communitystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\repository\\applymentdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:repository\\applymentdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\applicant\\communitypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\communitypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\controller\\applymentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:controller\\applymentdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\applicant\\applicantregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\applicantregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\handler\\applymentdetailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:handler\\applymentdetailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\applicant\\applicantregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\applicantregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\views\\employer\\viewapplicant.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\employer\\viewapplicant.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\style\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:style\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\views\\applicant\\searchjob.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\searchjob.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\applicant\\searchjob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\controller\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:controller\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\handler\\workhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:handler\\workhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|d:\\school\\univ\\semester 4\\software engineering\\repo_se\\projek_se\\worksphere\\views\\applicant\\searchjob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\searchjob.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\applicant\\communitypage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\applicant\\communitypage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\repository\\communityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:repository\\communityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\employer\\homeemployer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\employer\\homeemployer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:navbar.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\style\\employer\\homeemployer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:style\\employer\\homeemployer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\employer\\homeemployer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\employer\\homeemployer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|D:\\Projek_SE\\Worksphere\\views\\homebeforelogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01965D49-FEBC-4991-B1E5-7A98C736115C}|Worksphere.csproj|solutionrelative:views\\homebeforelogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 215,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,230 +62,149 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeBeforeLogin.css",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Style\\HomeBeforeLogin.css",
-              "RelativeDocumentMoniker": "Style\\HomeBeforeLogin.css",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Style\\HomeBeforeLogin.css",
-              "RelativeToolTip": "Style\\HomeBeforeLogin.css",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAswHcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-11T05:41:19.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeBeforeLogin.aspx",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\HomeBeforeLogin.aspx",
-              "RelativeDocumentMoniker": "Views\\HomeBeforeLogin.aspx",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\HomeBeforeLogin.aspx",
-              "RelativeToolTip": "Views\\HomeBeforeLogin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-11T05:17:15.715Z",
-              "EditorCaption": ""
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CommunityStyle.css",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Style\\Applicant\\CommunityStyle.css",
-              "RelativeDocumentMoniker": "Style\\Applicant\\CommunityStyle.css",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Style\\Applicant\\CommunityStyle.css",
-              "RelativeToolTip": "Style\\Applicant\\CommunityStyle.css",
-              "ViewState": "AQIAACgAAAAAAAAAAAAswEEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-11T06:30:58.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeApplicant.aspx",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\HomeApplicant.aspx",
-              "RelativeDocumentMoniker": "Views\\Applicant\\HomeApplicant.aspx",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\HomeApplicant.aspx",
-              "RelativeToolTip": "Views\\Applicant\\HomeApplicant.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-11T06:32:28.801Z",
+              "Title": "ApplymentDetailRepository.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Repository\\ApplymentDetailRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ApplymentDetailRepository.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Repository\\ApplymentDetailRepository.cs",
+              "RelativeToolTip": "Repository\\ApplymentDetailRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAtwCYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:49:27.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApplicantRegister.aspx",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\ApplicantRegister.aspx",
-              "RelativeDocumentMoniker": "Views\\Applicant\\ApplicantRegister.aspx",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\ApplicantRegister.aspx",
-              "RelativeToolTip": "Views\\Applicant\\ApplicantRegister.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-11T06:02:08.701Z",
+              "Title": "ApplymentDetailHandler.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Handler\\ApplymentDetailHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\ApplymentDetailHandler.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Handler\\ApplymentDetailHandler.cs",
+              "RelativeToolTip": "Handler\\ApplymentDetailHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAtwBYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:49:10.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CommunityPage.aspx",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\CommunityPage.aspx",
-              "RelativeDocumentMoniker": "Views\\Applicant\\CommunityPage.aspx",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\CommunityPage.aspx",
-              "RelativeToolTip": "Views\\Applicant\\CommunityPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-10T15:31:34.494Z",
+              "Title": "ApplymentDetailController.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Controller\\ApplymentDetailController.cs",
+              "RelativeDocumentMoniker": "Controller\\ApplymentDetailController.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Controller\\ApplymentDetailController.cs",
+              "RelativeToolTip": "Controller\\ApplymentDetailController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T21:48:23.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "master.css",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Style\\master.css",
-              "RelativeDocumentMoniker": "Style\\master.css",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Style\\master.css",
-              "RelativeToolTip": "Style\\master.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ViewApplicant.css",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Style\\Employer\\ViewApplicant.css",
+              "RelativeDocumentMoniker": "Style\\Employer\\ViewApplicant.css",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Style\\Employer\\ViewApplicant.css",
+              "RelativeToolTip": "Style\\Employer\\ViewApplicant.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-11T05:49:51.892Z",
+              "WhenOpened": "2024-06-12T21:11:52.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewApplicant.aspx",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Employer\\ViewApplicant.aspx",
+              "RelativeDocumentMoniker": "Views\\Employer\\ViewApplicant.aspx",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Employer\\ViewApplicant.aspx",
+              "RelativeToolTip": "Views\\Employer\\ViewApplicant.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T20:51:51.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ApplicantRegister.aspx.cs",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\ApplicantRegister.aspx.cs",
-              "RelativeDocumentMoniker": "Views\\Applicant\\ApplicantRegister.aspx.cs",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\ApplicantRegister.aspx.cs",
-              "RelativeToolTip": "Views\\Applicant\\ApplicantRegister.aspx.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ViewApplicant.aspx.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Employer\\ViewApplicant.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\Employer\\ViewApplicant.aspx.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Employer\\ViewApplicant.aspx.cs",
+              "RelativeToolTip": "Views\\Employer\\ViewApplicant.aspx.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T06:02:06.248Z",
+              "WhenOpened": "2024-06-12T20:51:37.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CommunityRepository.cs",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Repository\\CommunityRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CommunityRepository.cs",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Repository\\CommunityRepository.cs",
-              "RelativeToolTip": "Repository\\CommunityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "SearchJob.aspx.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Applicant\\SearchJob.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\Applicant\\SearchJob.aspx.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Applicant\\SearchJob.aspx.cs",
+              "RelativeToolTip": "Views\\Applicant\\SearchJob.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:26:41.604Z",
+              "WhenOpened": "2024-06-12T17:53:44.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobDetail.aspx",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Applicant\\JobDetail.aspx",
+              "RelativeDocumentMoniker": "Views\\Applicant\\JobDetail.aspx",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Applicant\\JobDetail.aspx",
+              "RelativeToolTip": "Views\\Applicant\\JobDetail.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T18:54:08.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CommunityPage.aspx.cs",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\CommunityPage.aspx.cs",
-              "RelativeDocumentMoniker": "Views\\Applicant\\CommunityPage.aspx.cs",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\CommunityPage.aspx.cs",
-              "RelativeToolTip": "Views\\Applicant\\CommunityPage.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "WorkHandler.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Handler\\WorkHandler.cs",
+              "RelativeDocumentMoniker": "Handler\\WorkHandler.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Handler\\WorkHandler.cs",
+              "RelativeToolTip": "Handler\\WorkHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T15:39:11.373Z",
+              "WhenOpened": "2024-06-12T18:01:35.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Controller\\WorkController.cs",
+              "RelativeDocumentMoniker": "Controller\\WorkController.cs",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Controller\\WorkController.cs",
+              "RelativeToolTip": "Controller\\WorkController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T18:00:28.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SearchJob.aspx",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\SearchJob.aspx",
+              "DocumentMoniker": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Applicant\\SearchJob.aspx",
               "RelativeDocumentMoniker": "Views\\Applicant\\SearchJob.aspx",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Applicant\\SearchJob.aspx",
+              "ToolTip": "D:\\School\\Univ\\Semester 4\\Software Engineering\\Repo_SE\\Projek_SE\\Worksphere\\Views\\Applicant\\SearchJob.aspx",
               "RelativeToolTip": "Views\\Applicant\\SearchJob.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-06-10T07:43:05.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeEmployer.aspx",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Employer\\HomeEmployer.aspx",
-              "RelativeDocumentMoniker": "Views\\Employer\\HomeEmployer.aspx",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Employer\\HomeEmployer.aspx",
-              "RelativeToolTip": "Views\\Employer\\HomeEmployer.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-10T05:12:42.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeEmployer.aspx.cs",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\Employer\\HomeEmployer.aspx.cs",
-              "RelativeDocumentMoniker": "Views\\Employer\\HomeEmployer.aspx.cs",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\Employer\\HomeEmployer.aspx.cs",
-              "RelativeToolTip": "Views\\Employer\\HomeEmployer.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T08:35:57.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeEmployer.css",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Style\\Employer\\HomeEmployer.css",
-              "RelativeDocumentMoniker": "Style\\Employer\\HomeEmployer.css",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Style\\Employer\\HomeEmployer.css",
-              "RelativeToolTip": "Style\\Employer\\HomeEmployer.css",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAAC4AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-10T05:04:03.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeBeforeLogin.aspx.cs",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Views\\HomeBeforeLogin.aspx.cs",
-              "RelativeDocumentMoniker": "Views\\HomeBeforeLogin.aspx.cs",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Views\\HomeBeforeLogin.aspx.cs",
-              "RelativeToolTip": "Views\\HomeBeforeLogin.aspx.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T04:25:29.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Navbar.Master",
-              "DocumentMoniker": "D:\\Projek_SE\\Worksphere\\Navbar.Master",
-              "RelativeDocumentMoniker": "Navbar.Master",
-              "ToolTip": "D:\\Projek_SE\\Worksphere\\Navbar.Master",
-              "RelativeToolTip": "Navbar.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-10T04:23:56.426Z",
               "EditorCaption": ""
             }
           ]

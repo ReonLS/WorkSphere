@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Navbar.Master" AutoEventWireup="true" CodeBehind="ViewApplicant.aspx.cs" Inherits="Worksphere.Views.Employer.ViewApplicant" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../../Style/Employer/ViewApplicant.css" rel="stylesheet" />
+    <link href="/Style/Employer/ViewApplicant.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="Title">
@@ -28,14 +28,15 @@
                     <td><%= d.Status %></td>
                     <td> <button></button> </td>
                     <td>
-                        <button>Accept</button>
-                        <button>Reject</button>
+                        <asp:Button ID="BtnAccept" runat="server" Text="Accept" OnClick="BtnAccept_Click" CssClass="btnAccept"/>
+                        <asp:Button ID="BtnReject" runat="server" Text="Reject" OnClick="BtnReject_Click" CssClass="btnReject" />
                     </td>
                 </tr>
             <%
             } %>
         </table>
-        <asp:Table ID="Table" runat="server">
+
+<%--        <asp:Table ID="Table" runat="server">
             <asp:TableHeaderRow>
                 <asp:TableCell>Photo</asp:TableCell>
                 <asp:TableCell>Applicant Name</asp:TableCell>
@@ -59,7 +60,7 @@
                     <asp:Button ID="Button1" runat="server" Text="Profile" class="Btn-profile"/>
                 </asp:TableCell>
             </asp:TableRow>
-        </asp:Table>
+        </asp:Table>--%>
     </div>
 
 </asp:Content>

@@ -13,7 +13,7 @@
             <div class="left">
                 <h1>Having trouble with your job seeking process?</h1>
                 <p>Gain insights and have a discussion with our community to answer your questions and worries</p>
-                <a href="">Career Advice</a>
+                <a href="/Views/Applicant/CareerAdvice.aspx">Career Advice</a>
             </div>
             <div class="right">
                 <img src="/Assets/header-img.png" />

@@ -13,5 +13,15 @@ namespace Worksphere.Controller
         {
             return ApplymentDetailHandler.getApplymentByWorkID(id);
         }
+
+        public static void addApplyment(string appID, string workID)
+        {
+            ApplymentDetailHandler.addApplyment(appID, workID);
+        }
+
+        public static void changeStatus (string stats, string appID)
+        {
+            ApplymentDetailHandler.changeStatus(stats, appID);
+        }
     }
 }

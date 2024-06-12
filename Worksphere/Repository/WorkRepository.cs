@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using Worksphere.Factory;
+using Worksphere.Handler;
 using Worksphere.Model;
 
 namespace Worksphere.Repository {
@@ -26,6 +27,19 @@ namespace Worksphere.Repository {
         public static List<Work> getWorkByEmployerID(string empID)
         {
             return (from w in db.Works where w.EmployerID.Equals(empID) select w).ToList();
+        }
+
+        public static List<Work> getAllWork()
+        {
+            return (from w in db.Works
+                    select w).ToList();
+        }
+
+        public static Work getWorkbyID(string id)
+        {
+            return (from w in db.Works
+                    where w.WorkID.Equals(id)
+                    select w).FirstOrDefault();
         }
     }
 }

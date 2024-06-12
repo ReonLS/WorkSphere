@@ -3,16 +3,30 @@
     <link href="../../Style/Employer/HomeEmployer.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section class="container">
+
+    <div class="header">
+        <div class="header-container">
+            <div class="left">
+                <h1>Want to add your jobs to our site?</h1>
+                <p>Publish job opportunities to find potential workers</p>
+                 <asp:Button ID="Btn_AddJob_HomeEmployer" runat="server" Text="Add Job" CssClass="button-addjob" OnClick="Btn_AddJob_HomeEmployer_Click" />
+            </div>
+            <div class="right">
+                <img src="/Assets/header-img.png" />
+            </div>
+        </div>
+    </div>
+
+    <%--<section class="container">
         <div class="header">
             <h2>Want to add your jobs to our site?</h2>
             <h6>Publish job opportunities to find potential workers</h6>
             <asp:Button ID="Btn_AddJob_HomeEmployer" runat="server" Text="Add Job" OnClick="Btn_AddJob_HomeEmployer_Click" />
         </div>
-    </section>
+    </section>--%>
         <h2>Jobs Added</h2>
     <section class="isi">
-        <% foreach(var w in workList)
+        <% int i = 0; foreach(var w in workList)
             { %>
             <%workID = w.WorkID; %>
             <div class="job-list">
@@ -35,15 +49,16 @@
                         <h5 class="detail"><%= w.WorkDescription %></h5>
                     </div>
                     <div class="job-description">
-                        <asp:Button ID="Btn_ViewApplicant" runat="server" Text="ViewApplicant" cssClass="viewButton" OnClick="Btn_ViewApplicant_Click" />
+                        <a href="/Views/Employer/ViewApplicant.aspx/?id=<%= w.WorkID %>">View Detail</a>
                     </div>
                     <div class="footer">
                         <span class="footer-text" style="float: left;">Application Deadline in 12 May</span>
-                        <span class="footer-text" style="float: right;"><%= w.Category.CategoryName %></span>
+                        <span class="footer-text" style="float: right;"><%=cateName2[i] %></span>
                     </div>
                 </div>
             </div>
         <%
+                i++;
             } %>
     </section>
 </asp:Content>

@@ -27,38 +27,38 @@
                  <h1>Jobs Found</h1>
                  <%-- tag buat count semua job yang ada --%>
                  <%--<h5><%= %></h5>--%>
-                 <h5>25,344 Jobs</h5>
+                 <h5><%= count %>Jobs</h5>
              </div>
              <div class="all-jobs">
                  <div class="left">
                      <div class="jobs">
-                         <%for (var i = 1; i < 10; i++){ %>
+                         <%for (var i = 0; i < count; i++){%>
                              <div class="jobs-container">
                                  <div class="upper">
                                      <img src="../../Assets/mixue.png" />
                                      <div class="title">
-                                         <h3>Job Title</h3>
-                                         <h5>Company Name</h5>
+                                         <h3><%= workList[i].WorkTitle %></h3>
+                                         <h5><%=workList[i].Employer.CompanyName %></h5>
                                      </div>
                                  </div>
                                  <div class="lower">
                                      <div class="lower-div">
                                          <img src="../../Assets/location.png" />
-                                         <span>Jakarta, Indonesia</span>
+                                         <span><%=workList[i].Employer.CompanyAddress %></span>
                                      </div>
                                      <div class="lower-div">
                                          <img src="../../Assets/card.png" />
-                                         <span>IDR 5,000,000 - 10,000,000 / month</span>
+                                         <span><%=workList[i].Salary %> / month</span>
                                      </div>
                                      <%-- ini paling link nya pake yg ?workId= --%>
                                      <%-- trs klo di klik di tampilin aja di div right --%>
                                  </div>
-                                 <a href="">View Detail</a>
+                                 <a href="/Views/Applicant/JobDetail.aspx/?id=<%=workList[i].WorkID %>">View Detail</a>
                               </div>
                          <%} %>
                      </div>
                  </div>
-                 <div class="right">
+<%--                 <div class="right">
                      <div class="job-detail">
                          <div class="detail-container">
                              <div class="upper">
@@ -102,7 +102,7 @@
                              </div>
                          </div>
                      </div>
-                 </div>
+                 </div>--%>
              </div>
          </div>
      </div>

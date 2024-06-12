@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Worksphere.Handler;
 using Worksphere.Model;
 
 namespace Worksphere.Repository
@@ -14,6 +15,13 @@ namespace Worksphere.Repository
             return (from x in db.Categories
                     where x.CategoryName.Equals(CategoryName, StringComparison.OrdinalIgnoreCase)
                     select x.CategoryID).FirstOrDefault();
+        }
+
+        public static String GetCategoryNameByID(String CategoryID)
+        {
+            return(from x in db.Categories
+                   where x.CategoryID.Equals(CategoryID)
+                   select x.CategoryName).FirstOrDefault();
         }
     }
 }

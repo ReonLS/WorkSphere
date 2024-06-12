@@ -12,5 +12,10 @@ namespace Worksphere.Controller
         {
             return CategoryHandler.GetCategoryIDByName(CategoryName);
         }
+
+        public static String GetCategoryNameByID(String CategoryID)
+        {
+            return CategoryHandler.GetCategoryNameByID(CategoryID);
+        }
     }
 }

@@ -20,5 +20,15 @@ namespace Worksphere.Handler
         {
             return WorkRepository.getWorkByEmployerID(empID);
         }
+
+        public static List<Work> getAllWork()
+        {
+            return WorkRepository.getAllWork();
+        }
+
+        public static Work getWorkbyID(string id)
+        {
+            return WorkRepository.getWorkbyID(id);
+        }
     }
 }
